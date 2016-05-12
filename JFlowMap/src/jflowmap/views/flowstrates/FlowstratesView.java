@@ -175,6 +175,7 @@ public class FlowstratesView extends AbstractCanvasView {
     }
 
     logger.info("Opening flowstrates view");
+    System.out.println("Opening flowstrates view");
 
     this.flowMapGraph = fmg;
     this.maxVisibleTuples = config.getIntOrElse(FlowstratesView.VIEW_CONFIG_PROP_MAX_VISIBLE_TUPLES, -1);

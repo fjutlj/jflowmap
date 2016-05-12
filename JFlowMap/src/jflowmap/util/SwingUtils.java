@@ -115,6 +115,7 @@ public class SwingUtils {
       if ("Nimbus".equals(info.getName())) {
         try {
           UIManager.setLookAndFeel(info.getClassName());
+          System.out.println(info.getClassName());
         } catch (Exception e) {
           logger.error("Cannot init Nimbus L&F");
         }

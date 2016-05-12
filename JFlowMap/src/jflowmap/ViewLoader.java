@@ -222,6 +222,8 @@ public class ViewLoader {
       }
 
       private JPanel createLoadingErrorPanel(Exception ex) {
+    	  
+    	  System.out.println("error int OnenViewConfigActon.java: line 225");
         JPanel panel = new JPanel();
         panel.setName(LOADING_ERROR_PANEL_NAME);
         panel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));

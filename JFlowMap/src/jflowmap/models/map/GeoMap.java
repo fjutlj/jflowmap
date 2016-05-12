@@ -57,6 +57,7 @@ public class GeoMap {
 
   public static final GeoMap load(String filename) throws IOException {
     logger.info("Loading area map '" + filename + "'");
+    System.out.println("get in function: GeoMap load(String filename) in GeoMap.java");
     return XmlAreaMapModelReader2.readMap(filename);
   }
 

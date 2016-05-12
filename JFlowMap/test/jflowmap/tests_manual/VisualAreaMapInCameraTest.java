@@ -59,8 +59,10 @@ public class VisualAreaMapInCameraTest extends PFrame {
     PCamera camera = canvas.getCamera();
 
     map = new PGeoMap(mapColorScheme,
-        GeoMap.load("data/refugees/countries-areas-ll.xml.gz"),
-        MapProjections.MERCATOR);
+//        GeoMap.load("data/refugees/countries-areas-ll.xml.gz"),
+//        MapProjections.MERCATOR);
+    		GeoMap.load("data/refugees/countries-areas-ll.xml.gz"),
+            MapProjections.MERCATOR);
 
 //    PLayer layer = canvas.getLayer();
 //    layer.addChild(map);

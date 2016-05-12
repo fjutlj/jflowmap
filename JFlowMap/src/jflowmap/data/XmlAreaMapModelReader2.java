@@ -47,6 +47,8 @@ public class XmlAreaMapModelReader2 {
 
   public static GeoMap readMap(String location) throws IOException {
     InputStream is = IOLib.streamFromString(location);
+    
+//    InputStream is = new FileInputStream( new File(location) );
     if (is == null) {
       throw new IllegalArgumentException("Cannot load area map from '" + location + "'");
     }

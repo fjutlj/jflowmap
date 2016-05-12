@@ -103,6 +103,7 @@ public class OpenViewConfigAction extends AbstractAction {
       }
 
     } catch (Exception ex) {
+    	
       JMsgPane.showProblemDialog(app, "File couldn't be loaded: " + ex.getMessage());
       logger.error("Exception: ", ex);
     }

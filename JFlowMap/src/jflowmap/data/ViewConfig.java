@@ -360,6 +360,7 @@ public class ViewConfig {
       FlowMapGraphBuilder builder;
 
       if (aggregated) {
+    	  System.out.println("loadCsv() is aggregated in ViewConfig.java line363");
         builder = CsvFlowMapGraphReader.readFlowMapGraph(
             nodesSrc,
             flowsSrc,
@@ -378,6 +379,7 @@ public class ViewConfig {
       } else {
 
         final String weightAttrsAttr = config.require(PROP_DATA_ATTRS_FLOW_WEIGHT_ATTRS_ATTR);
+        System.out.println("loadCsv() is disaggregated in ViewConfig.java line382");
 
         builder = CsvDisaggregatedFlowMapGraphReader.readFlowMapGraph(
             nodesSrc,
@@ -467,6 +469,7 @@ public class ViewConfig {
     FLOWMAP {
       @Override
       public IView createView(ViewConfig config, Object data, GeoMap areaMap) throws Exception {
+    	  System.out.println(" return new FlowMapView() in Viewconfig.java");
         return new FlowMapView(
             VisualFlowMapModel.createFor((FlowMapGraph)data, config),
             areaMap, mapProjection(config), colorSchemeFor(config), config);
