@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin" path="src"/>
+	<classpathentry kind="src" path="JFlowMap/test"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/batik-awt-util.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/batik-codec.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/batik-svggen.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/batik-util.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/cgvis-lib.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/fhj-utils.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/forms-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/guava-r03.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/jts-1.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/jump-core-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/miglayout-3.7.3.1-swing.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/opencsv-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/piccolo2d-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/piccolo2d-extras-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/prefuse.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/xpp3_xpath-1.1.4c.jar"/>
+	<classpathentry kind="con" path="D:/_WORK/jflowmap/JFlowMap/bin"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/tools/junit-4.7.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/tools/proguard.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/piccolo2d-core-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/_WORK/JFlowMap/JFlowMap/lib/piccolo2d-extras-3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

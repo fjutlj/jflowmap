@@ -30,7 +30,7 @@ public class FlowMapGraphEdgeAggregatorTest {
 
   @Test
   public void testAggregateBySource() {
-    // aggregate by source node
+    // aggregate by source node 
     FlowMapGraph aggregated = FlowMapGraphEdgeAggregator.aggregate(fmg,
         FlowMapGraphEdgeAggregator.GroupFunctions.SRC_NODE);
 

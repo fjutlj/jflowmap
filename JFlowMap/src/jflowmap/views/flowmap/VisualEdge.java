@@ -64,7 +64,8 @@ public abstract class VisualEdge extends PNode {
   private boolean highlighted;
 
   public VisualEdge(VisualFlowMap visualFlowMap, Edge edge, VisualNode sourceNode, VisualNode targetNode) {
-    this.edge = edge;
+//    System.out.println("in VisualEdge() VisualEdge.java line67,views.flowmap package");
+	this.edge = edge;
     this.sourceNode = sourceNode;
     this.targetNode = targetNode;
     this.visualFlowMap = visualFlowMap;

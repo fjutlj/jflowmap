@@ -1,0 +1,26 @@
+view=flowmap
+view.flowmap.colorScheme=Light
+view.flowmap.weightFilterMin=2
+
+data=csv
+data.csv.separator=,
+data.csv.charset=utf-8
+data.csv.nodes.src=../../data/ljTestData/stations2.csv
+data.csv.flows.src=../../data/ljTestData/odMatrix_05_09_20m.csv
+
+data.attrs.node.id=id
+data.attrs.node.label=label
+data.attrs.node.lat=lat
+data.attrs.node.lon=lng
+
+
+data.attrs.flow.origin=oID
+data.attrs.flow.dest=dID
+data.attrs.flow.weight.legendCaption=Number of phone OD
+data.attrs.flow.weight.csvList= odNum
+
+
+
+
+map.projection=Mercator
+

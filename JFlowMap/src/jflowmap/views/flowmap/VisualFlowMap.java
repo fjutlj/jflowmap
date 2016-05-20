@@ -120,6 +120,7 @@ public class VisualFlowMap extends PNode implements ColorSchemeAware {
 
   public VisualFlowMap(final IView view, VisualFlowMapModel model, boolean showLegend,
       MapProjection proj, String flowWeightAttr, IFlowMapColorScheme colorScheme) {
+	  System.out.println("in VisualFlowMap() views/flowmap/VisualFlowMap.java line 123");  
     this.view = view;
     this.mapProjection = proj;
     this.flowWeightAttr = flowWeightAttr;

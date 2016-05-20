@@ -69,6 +69,7 @@ public class FlowMapView extends AbstractCanvasView {
 
   public FlowMapView(VisualFlowMapModel model, GeoMap areaMap, MapProjection proj,
       IFlowMapColorScheme cs, ViewConfig config) {
+	  System.out.println("in FlowMapView() views/flowmap/FlowMapView.java line 72");
     this.viewConfig = config;
 
     FlowMapGraph fmg = model.getFlowMapGraph();
@@ -210,6 +211,7 @@ public class FlowMapView extends AbstractCanvasView {
 
   @Override
   public void fitInView() {
+	  System.out.println("in fitInView() views/flowma/FlowMapView.java line 214");
     visualFlowMap.fitInCameraView();
   }
 
