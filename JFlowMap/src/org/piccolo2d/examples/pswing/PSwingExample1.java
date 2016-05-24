@@ -59,6 +59,7 @@ import java.awt.event.ActionListener;
 
 /**
  * User: Sam Reid Date: Jul 11, 2005 Time: 12:15:55 PM
+ * lj test in 20160520
  */
 
 public class PSwingExample1 {

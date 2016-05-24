@@ -37,7 +37,7 @@ public class FullScreenNodeExample extends NodeExample {
 
     public void initialize() {
         super.initialize();
-        setFullScreenMode(true);
+        setFullScreenMode(true);//»´∆¡œ‘ æ
     }
 
     public static void main(final String[] args) {

@@ -31,9 +31,11 @@ package org.piccolo2d.examples;
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Paint;
+import java.awt.Shape;
 import java.awt.Stroke;
 
 import java.awt.geom.Arc2D;
+import java.awt.geom.GeneralPath;
 
 import org.piccolo2d.PCanvas;
 
@@ -89,6 +91,8 @@ public final class PathExample extends PFrame {
 
     /** {@inheritDoc} */
     public void initialize() {
+    	
+    	
 
         PPath arc = PPath.createArc(-75.0d, 25.0d, 200.0d, 200.0d, 30.0d, 60.0d, Arc2D.PIE);
         PPath cubicCurve = PPath.createCubicCurve(100.0d, 100.0d, 150.0d, 125.0d, 175.0d, 150.0d, 200.0d, 200.0d);

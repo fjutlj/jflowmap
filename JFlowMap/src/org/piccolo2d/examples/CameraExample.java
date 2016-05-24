@@ -64,18 +64,18 @@ public class CameraExample extends PFrame {
         n.setStroke(null);
         PBoundsHandle.addBoundsHandlesTo(n);
         l.addChild(n);
-//        n.translate(200, 100);
+        n.translate(200, 100);
         
 
-//        final PCamera c = new PCamera();
-//        c.setBounds(0, 0, 100, 80);
-//        c.scaleView(0.1);
-//        c.addLayer(l);
-//        PBoundsHandle.addBoundsHandlesTo(c);
-//        c.setPaint(Color.yellow);
+        final PCamera c = new PCamera();
+        c.setBounds(0, 0, 100, 80);
+        c.scaleView(0.5);
+        c.addLayer(l);
+        PBoundsHandle.addBoundsHandlesTo(c);
+        c.setPaint(Color.yellow);
 
         getCanvas().getLayer().addChild(l);
-//        getCanvas().getLayer().addChild(c);
+        getCanvas().getLayer().addChild(c);
     }
 
     public static void main(final String[] args) {

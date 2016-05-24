@@ -80,6 +80,7 @@ public class VisualCanvas extends PCanvas {
 //  private BlockingGlassPane blockingGlassPane;
 
   public VisualCanvas(IView view) {
+	  System.out.println("VisualCanvas(IView view) in jflowmap/views/VisualCanvas.java line83"); 
     this.view = view;
     setZoomEventHandler(null);
     setZoomHandler(createZoomHandler());
@@ -126,6 +127,7 @@ public class VisualCanvas extends PCanvas {
   }
 
   public void setZoomHandler(ZoomHandler handler) {
+	  System.out.println("setZoomHandler(ZoomHandler handler) in jflowmap/views/VisualCanvas.java");
     if (zoomHandler != null) {
       removeInputEventListener(zoomHandler);
     }

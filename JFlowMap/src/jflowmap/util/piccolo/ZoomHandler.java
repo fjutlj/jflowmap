@@ -78,6 +78,7 @@ public class ZoomHandler extends PDragSequenceEventHandler {
 
   @Override
   public void mouseWheelRotated(PInputEvent event) {
+	System.out.println("mouseWheelRotated(PInputEvent event) in jflowmap/util/piccolo/ZoomHandler.java line 81");
     final PCamera c = event.getCamera();
     final Point2D position;
     if (viewZoomPoint != null) {

@@ -50,10 +50,10 @@ public enum MapProjections implements MapProjection {
     private final static boolean INVERT_Y = true;
 
     @Override
-    public Point2D project(double lon, double lat) {
+    public Point2D project(double lon, double lat) {//经纬度转墨卡托
       return new Point2D.Double(
           SCALE * lon / 180,
-          SCALE * (INVERT_Y ? -1 : 1) * (lat > 85 ?
+          SCALE * (INVERT_Y ? -1 : 1) * (lat > 85 ?           //INVERT_Y为true的作用是：对纬度转成墨卡托坐标时加上负号。可能是用于画图
               1 : (lat < -85 ?
                   -1 : Math.log(Math.tan(Math.PI / 4 + radians(lat) / 2)) / Math.PI)
               ));
@@ -61,7 +61,8 @@ public enum MapProjections implements MapProjection {
 
   },
 
-  WINKELTRIPEL {
+  WINKELTRIPEL {//温克尔三重投影，仅用于世界地图
+	 
     private final double phi1 = Math.acos(2/Math.PI);
     private final double cos_phi1 = Math.cos(phi1);
 

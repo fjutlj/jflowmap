@@ -67,7 +67,7 @@ public class HandleExample extends PFrame {
         // add another node the the root as a reference point so that we can
         // tell that our node is getting dragged, as opposed the the canvas
         // view being panned.
-        getCanvas().getLayer().addChild(PPath.createRectangle(0, 0, 100, 80));
+//        getCanvas().getLayer().addChild(PPath.createRectangle(0, 0, 100, 80));
 
         getCanvas().getLayer().addChild(n);
 

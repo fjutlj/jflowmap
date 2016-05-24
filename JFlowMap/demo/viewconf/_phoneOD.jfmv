@@ -22,5 +22,5 @@ data.attrs.flow.weight.csvList= odNum
 
 
 
-map.projection=Mercator
+map.projection=FLIPY
 

@@ -54,7 +54,7 @@ import org.piccolo2d.util.PPaintContext;
 public class NodeExample extends PFrame {
 
     /**
-     * 
+     *    
      */
     private static final long serialVersionUID = 1L;
     boolean fIsPressed = false;
